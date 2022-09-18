@@ -1,0 +1,34 @@
+	----SQL TABELID----
+
+Create table if not exists margid(
+	id serial PRIMARY KEY,
+	name varchar(20) unique not null,
+	country varchar(20) not null
+)
+
+Create table if not exists autod(
+	id serial PRIMARY KEY,
+	name text REFERENCES margid(name),
+	model text not null,
+	produced int not null, check(produced between 1886 and 2022), 
+	engine_power int not null, check(engine_power between 50 and 1200),
+	engine_capacity decimal(3,1) not null, check(engine_capacity between 0.5 and 12.0),  
+	price bigint not null,
+	status text DEFAULT 'on_sale'
+)
+
+Create table if not exists omanikud(
+	id serial primary key,"
+	name text,
+	city text,
+	country text,
+	unique(name)
+)
+
+Create table if not exists ajalugu(
+	id serial PRIMARY KEY, 
+	car_id int not null,
+	owner_id int not null,
+	start timestamp not null, 
+	stop timestamp default NULL, check(start < stop)
+)
