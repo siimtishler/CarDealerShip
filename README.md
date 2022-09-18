@@ -11,4 +11,4 @@ The user can navigate the dealership with a Console menu shown in the picture
 
 ![image](https://user-images.githubusercontent.com/92330937/190899033-11c92a77-a006-41d5-b9f0-6b821a989c40.png)
 
-[See more images]()
+[See more images](https://github.com/siimtishler/CarDealerShip/blob/main/images.md)
