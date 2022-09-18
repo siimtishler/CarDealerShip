@@ -11,4 +11,5 @@ The user can navigate the dealership with a Console menu shown in the picture
 
 ![image](https://user-images.githubusercontent.com/92330937/190899033-11c92a77-a006-41d5-b9f0-6b821a989c40.png)
 
-[See more images of working examples](https://github.com/siimtishler/CarDealerShip/blob/main/images.md)
+[See more images of working examples](https://github.com/siimtishler/CarDealerShip/blob/main/images.md)  
+[The SQL tables and structures](https://github.com/siimtishler/CarDealerShip/blob/main/SQL_TABLES_carDealerShip.txt)
